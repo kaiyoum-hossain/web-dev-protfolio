@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+margin: 0;
+padding: o;
+
+}
+.btn-containar{
+
+  text-align: center;
+
+}
+.btn{
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 14px 18px 14px 18px;
+  border-radius: 8px;
+
+background: rgb(82, 195, 3);
+border: none;
+cursor: pointer;
+
+}
+#hero{
+
+ 
+background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),url("assets/hero-bg.png");
+background-repeat: no-repeat;
+background-position: center;
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#hero .title{
+
+width: 685px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+#hero .title .subtitle{
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+
+
+}
+#hero .title .style{
+
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+margin-bottom: 14px;
+
+}
+#hero .title .siyam{
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+margin-bottom: 18px;
+
+}
+#hero .title .Resturant{
+
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+
+
+}
+#card-box{
+
+width: 884px;
+margin: 100px auto;
+
+}
+#card-box .title{
+
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+#card-box .subtitle{
+
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height:18px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+.card-containar{
+  margin-top: 32px;
+
+display: flex;
+justify-content: space-between;
+
+}
+.card{
+
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box{
+
+width:250px;
+
+}
+.card .image-box img{
+width:100%;
+
+}
+.card .shop{
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+
+  background: rgba(82, 195, 3, 0.15);
+  
+  }
+
+
+#card-css{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap:50px;
+
+
+}
+
+
+
+
+
+
+  #card-css .style-css{
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+  #card-css .ami{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+margin-top: 20px;
+
+  }
+  #card-css .follow{
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+margin-top: 30px;
+
+  }
+  #card-css .food img{
+
+width: 400px;
+
+
+  }
+
+  #card-css .fa-brands fa-facebook{
+
+    /* Vector */
+    position: absolute;
+    width: 14.72px;
+    height: 31.39px;
+    left: 12.81px;
+    top: 8.61px;
+    background: rgb(255, 255, 255);
+    
+      }
+    
+    
+
