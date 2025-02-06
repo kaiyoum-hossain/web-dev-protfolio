@@ -1,0 +1,151 @@
+
+
+.containat{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+
+
+
+.Maps{
+
+border: 2px solid aqua;
+border-radius: 10px;
+padding: 10px ;
+
+
+}
+
+
+.Maps img{
+
+width: 100%;
+
+}
+
+
+@media screen and (max-width:576px){
+    .containat{
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and(min-width:577px)and (max-width:992px){
+    .containat{
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+
+.images{
+
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 20px;
+}
+
+
+.download img{
+
+width: 100%;
+border: 2px solid peru;
+border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .images{
+
+grid-template-columns: repeat(2, 1fr);
+width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.picture{
+
+display:flex;
+/* grid-template-columns: repeat(2,1fr); */
+gap: 20px;
+padding: 20px;
+
+
+}
+
+
+.photo{
+
+    border: 2px solid azure;
+    border-radius: 10px;
+   
+}
+
+
+.photo img{
+
+width: 50%;
+
+}
+
+.containar{
+display: flex;
+gap: 20px;
+
+}
+
+
+
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+
+
+
+.containar2{
+
+display: flex;
+gap: 10px;
+flex-wrap:wrap;
+}
+
+
+
+
+
+
+
+.item{
+
+width: 200px;
+height: 100px;
+background-color: aquamarine;
+border: 2px solid tomato;
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .containar{
+
+        flex-direction: column;
+
+    }
+}
+
+
